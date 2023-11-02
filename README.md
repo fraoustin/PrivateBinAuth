@@ -8,6 +8,7 @@ clone repository
 
 > git clone https://github.com/fraoustin/PrivateBinAuth.git
 
+
 build your image
 
 > docker build -t privatebinauth .
@@ -22,3 +23,5 @@ add login / password
 > > htpasswd -c /etc/nginx/htpasswd <user>
 
 more options on https://hub.docker.com/r/privatebin/nginx-fpm-alpine
+
+for usage you can use http://127.0.0.1:8080/login
